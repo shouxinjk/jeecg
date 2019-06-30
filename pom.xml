@@ -625,8 +625,8 @@
 	</dependencies>
 
 	<organization>
-		<name>JEECG 微云快速开发平台</name>
-		<url>www.jeecg.org</url>
+		<url>www.2b.com</url>
+		<name>2B</name>
 	</organization>
 	<build>
 		<finalName>${project.artifactId}</finalName>
@@ -713,4 +713,5 @@
 		</testResources>
 	</build>
 	
+	<name>用户行为监控系统</name>
 </project>
