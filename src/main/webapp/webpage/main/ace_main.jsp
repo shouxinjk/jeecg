@@ -66,7 +66,7 @@
 					<a href="#" class="navbar-brand">
 						<small>
 							<i class="icon-leaf"></i>
-							JEECG 微云快速开发平台
+							PCI应用平台
 						</small>
 					</a><!-- /.brand -->
 				</div><!-- /.navbar-header -->

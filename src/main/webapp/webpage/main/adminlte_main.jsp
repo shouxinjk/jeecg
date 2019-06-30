@@ -8,8 +8,8 @@
 	<meta name="renderer" content="webkit|ie-comp|ie-stand">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta http-equiv="Cache-Control" content="no-siteapp" />
-	<meta name="keywords" content="JEECG 企业级快速开发平台">
-    <meta name="description" content="JEECG 企业级快速开发平台，她采用强大代码生成，在线开发能力">
+	<meta name="keywords" content="PCI应用平台">
+    <meta name="description" content="PCI应用平台 代码生成 在线开发">
 	<title><t:mutiLang langKey="jeect.platform"/></title>
 	<!-- Bootstrap 3.3.7 -->
 	<link rel="stylesheet" href="plug-in/themes/adminlte/css/bootstrap.min.css">
@@ -325,9 +325,8 @@
       <b>Version</b> <t:mutiLang langKey="system.version.number"/>
     </div>
     <t:mutiLang langKey="common.copyright"/>
-    <a href="http://www.jeecg.org" title="JEECG Framework  <t:mutiLang langKey="system.version.number"/>">JEECG Framework  <t:mutiLang langKey="system.version.number"/></a>
-           (推荐谷歌浏览器，获得更快响应速度) 技术支持:
-           <a href="#" title="JEECG Framework  <t:mutiLang langKey="system.version.number"/>">JEECG Framework  <t:mutiLang langKey="system.version.number"/></a>
+    <a href="#" title="PCI应用平台  <t:mutiLang langKey="system.version.number"/>">PCI应用平台  <t:mutiLang langKey="system.version.number"/></a>
+           <a href="#" title="PCI应用平台  <t:mutiLang langKey="system.version.number"/>">PCI应用平台  <t:mutiLang langKey="system.version.number"/></a>
   </footer>
 
   <!-- Control Sidebar -->

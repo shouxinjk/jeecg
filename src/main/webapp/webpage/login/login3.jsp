@@ -117,9 +117,7 @@ label.iPhoneCheckLabelOn span {
                         <div class="clear"></div>
                     </div>
                     <div>
-                        <div style="float: right; margin-left:-30px; margin-right: 40px;">
-                           	 技术支持： <font color="red">JEECG开源社区</font>   &nbsp;&nbsp;&nbsp;  QQ群: <font color="red">106838471</font> &nbsp;&nbsp;&nbsp;  官网: <font color="red"><a href="http://www.jeecg.org"  target="_blank" >www.jeecg.org</a></font> 
-                        </div>
+
                     </div>
                 </form>
             </div>
@@ -129,7 +127,7 @@ label.iPhoneCheckLabelOn span {
     <!--Login div-->
     <div class="clear"></div>
     <div id="versionBar">
-        <div class="copyright">&copy; <t:mutiLang langKey="common.copyright"/> <span class="tip"><a href="http://www.jeecg.org"  target="_blank" title=<t:mutiLang langKey="common.platform"/>>jeecg</a> <t:mutiLang langKey="common.browser.recommend"/><a href="http://www.jeecg.org" target="_blank" title=<t:mutiLang langKey="common.platform"/>> Jeecg社区</a></span></div>
+        <div class="copyright">&copy; <t:mutiLang langKey="common.copyright"/> <span class="tip"><a href="#"  target="_blank" title=<t:mutiLang langKey="common.platform"/>>PCI应用平台</a> <t:mutiLang langKey="common.browser.recommend"/></span></div>
     </div>
     <!-- Link JScript-->
     <script type="text/javascript" src="plug-in/jquery/jquery-1.8.3.min.js"></script>

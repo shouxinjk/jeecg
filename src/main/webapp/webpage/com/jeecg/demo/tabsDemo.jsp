@@ -16,7 +16,7 @@
 		<t:tab href="jeecgFormDemoController.do?tabDemo" icon="icon-cut" title="选项卡" id="tab8"></t:tab>
 	</t:tabs>
 	<t:tabs id="tabsFour" iframe="true" heigth="800px" tabPosition="top" fit="false">
-		<t:tab href="http://www.guojusoft.com" icon="icon-search" title="北京国炬(全部iframe)" id="tab6"></t:tab>
-		<t:tab href="http://www.jeecg.org" icon="icon-search" title="Jeecg论坛" id="tab7"></t:tab>
+		<t:tab href="http://www.guojusoft.com" icon="icon-search" title="PCI" id="tab6"></t:tab>
+		<t:tab href="#" icon="icon-search" title="开发论坛" id="tab7"></t:tab>
 	</t:tabs>
 </div>

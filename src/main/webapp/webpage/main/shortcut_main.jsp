@@ -176,7 +176,7 @@ a:hover {
     <img src="plug-in/login/images/logo.jpg"> 
     <!--
         <img src="plug-in/login/images/toplogo.png" width="550" height="52" alt="">-->
-        <div style="position: absolute; top: 75px; left: 33px;">JEECG Framework <span style="letter-spacing: -1px;"> <t:mutiLang langKey="system.version.number"/></span></div>
+        <div style="position: absolute; top: 75px; left: 33px;">PCI应用平台 <span style="letter-spacing: -1px;"> <t:mutiLang langKey="system.version.number"/></span></div>
     </td>
     <td align="right" nowrap>
         <table border="0" cellpadding="0" cellspacing="0">
@@ -305,9 +305,8 @@ a:hover {
     <div align="center" style="color: #1fa3e5; padding-top: 2px">&copy;
         <t:mutiLang langKey="common.copyright"/>
         <span class="tip">
-            <a href="http://www.jeecg.org" title="JEECG Framework  <t:mutiLang langKey="system.version.number"/>">JEECG Framework  <t:mutiLang langKey="system.version.number"/></a>
-            (推荐谷歌浏览器，获得更快响应速度) 技术支持:
-            <a href="#" title="JEECG Framework  <t:mutiLang langKey="system.version.number"/>">JEECG Framework  <t:mutiLang langKey="system.version.number"/></a>
+            <a href="#" title="PCI应用平台  <t:mutiLang langKey="system.version.number"/>">PCI应用平台  <t:mutiLang langKey="system.version.number"/></a>
+            <a href="#" title="PCI应用平台  <t:mutiLang langKey="system.version.number"/>">PCI应用平台  <t:mutiLang langKey="system.version.number"/></a>
         </span>
     </div>
 </div>
