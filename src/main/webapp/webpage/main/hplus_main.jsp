@@ -56,7 +56,7 @@
                 <div class="navbar-header" style="height: 60px;"><a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
                     <form role="search" class="navbar-form-custom" method="post" action="search_results.html">
                         <div class="form-group">
-                            <input type="text" placeholder="欢迎登陆用户行为监控AMP系统" class="form-control" name="top-search" id="top-search">
+                            <input type="text" placeholder="欢迎使用用户行为分析系统" class="form-control" name="top-search" id="top-search">
                         </div>
                     </form>
                 </div>

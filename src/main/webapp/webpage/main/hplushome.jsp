@@ -19,7 +19,7 @@
 <body class="gray-bg">
 <div class="row  border-bottom white-bg dashboard-header">
     <div class="col-sm-12">
-        <blockquote class="text-warning" style="font-size:14px">欢迎进入用户及应用监控AMP系统。
+        <blockquote class="text-warning" style="font-size:14px">欢迎进入用户行为分析系统。
             <h4 class="text-danger">请选择需要进行的操作</h4>
         </blockquote>
         <hr>
