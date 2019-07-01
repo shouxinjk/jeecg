@@ -117,7 +117,7 @@
                 </form>
               </div>
             </div>
-            <div class="center"><h4 class="blue" id="id-company-text">&copy; PCI</h4></div>
+            <div class="center"><h4 class="blue" id="id-company-text">&copy; APM用户行为分析系统</h4></div>
             <div class="navbar-fixed-top align-right">
               <br />
               &nbsp;

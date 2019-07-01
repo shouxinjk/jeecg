@@ -39,7 +39,7 @@
                     <div class="dropdown profile-element">
                                 <span><img alt="image" width="180" height="61" src="plug-in/login/images/jeecg-aceplus.png" /></span>
                     </div>
-                    <div class="logo-element">JEECG
+                    <div class="logo-element">APM
                     </div>
                 </li>
 
