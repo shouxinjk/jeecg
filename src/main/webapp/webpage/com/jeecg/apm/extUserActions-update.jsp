@@ -18,6 +18,38 @@
 		<input type="hidden" id="btn_sub" class="btn_sub"/>
 		<input type="hidden" id="id" name="id" value="${extUserActions.id}"/>
 	<div class="form-group">
+		<label for="actionScene" class="col-sm-3 control-label">业务场景：</label>
+		<div class="col-sm-7">
+			<div class="input-group" style="width:100%">
+				<input id="actionScene" name="actionScene" value='${extUserActions.actionScene}' type="text" maxlength="32" class="form-control input-sm" placeholder="请输入业务场景"  ignore="ignore" />
+			</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="actionType" class="col-sm-3 control-label">用户操作：</label>
+		<div class="col-sm-7">
+			<div class="input-group" style="width:100%">
+				<input id="actionType" name="actionType" value='${extUserActions.actionType}' type="text" maxlength="32" class="form-control input-sm" placeholder="请输入用户操作"  ignore="ignore" />
+			</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="actionTarget" class="col-sm-3 control-label">操作对象：</label>
+		<div class="col-sm-7">
+			<div class="input-group" style="width:100%">
+				<input id="actionTarget" name="actionTarget" value='${extUserActions.actionTarget}' type="text" maxlength="32" class="form-control input-sm" placeholder="请输入操作对象"  ignore="ignore" />
+			</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="hostName" class="col-sm-3 control-label">主机名：</label>
+		<div class="col-sm-7">
+			<div class="input-group" style="width:100%">
+				<input id="hostName" name="hostName" value='${extUserActions.hostName}' type="text" maxlength="32" class="form-control input-sm" placeholder="请输入主机名"  ignore="ignore" />
+			</div>
+		</div>
+	</div>
+	<div class="form-group">
 		<label for="ip" class="col-sm-3 control-label">IP地址：</label>
 		<div class="col-sm-7">
 			<div class="input-group" style="width:100%">
@@ -34,50 +66,18 @@
 		</div>
 	</div>
 	<div class="form-group">
-		<label for="actionType" class="col-sm-3 control-label">用户操作如点击：</label>
+		<label for="actionBeginTime" class="col-sm-3 control-label">开始时间：</label>
 		<div class="col-sm-7">
 			<div class="input-group" style="width:100%">
-				<input id="actionType" name="actionType" value='${extUserActions.actionType}' type="text" maxlength="32" class="form-control input-sm" placeholder="请输入用户操作如点击"  ignore="ignore" />
+				<input id="actionBeginTime" name="actionBeginTime" value='${extUserActions.actionBeginTime}' type="text" maxlength="32" class="form-control input-sm" placeholder="请输入开始时间"  ignore="ignore" />
 			</div>
 		</div>
 	</div>
 	<div class="form-group">
-		<label for="actionTarget" class="col-sm-3 control-label">操作对象如菜单：</label>
+		<label for="actionEndTime" class="col-sm-3 control-label">结束时间：</label>
 		<div class="col-sm-7">
 			<div class="input-group" style="width:100%">
-				<input id="actionTarget" name="actionTarget" value='${extUserActions.actionTarget}' type="text" maxlength="32" class="form-control input-sm" placeholder="请输入操作对象如菜单"  ignore="ignore" />
-			</div>
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="actionScene" class="col-sm-3 control-label">业务场景：</label>
-		<div class="col-sm-7">
-			<div class="input-group" style="width:100%">
-				<input id="actionScene" name="actionScene" value='${extUserActions.actionScene}' type="text" maxlength="32" class="form-control input-sm" placeholder="请输入业务场景"  ignore="ignore" />
-			</div>
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="hostName" class="col-sm-3 control-label">操作发起主机名：</label>
-		<div class="col-sm-7">
-			<div class="input-group" style="width:100%">
-				<input id="hostName" name="hostName" value='${extUserActions.hostName}' type="text" maxlength="32" class="form-control input-sm" placeholder="请输入操作发起主机名"  ignore="ignore" />
-			</div>
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="actionBeginTime" class="col-sm-3 control-label">操作开始时间：</label>
-		<div class="col-sm-7">
-			<div class="input-group" style="width:100%">
-				<input id="actionBeginTime" name="actionBeginTime" value='${extUserActions.actionBeginTime}' type="text" maxlength="32" class="form-control input-sm" placeholder="请输入操作开始时间"  ignore="ignore" />
-			</div>
-		</div>
-	</div>
-	<div class="form-group">
-		<label for="actionEndTime" class="col-sm-3 control-label">操作结束时间：</label>
-		<div class="col-sm-7">
-			<div class="input-group" style="width:100%">
-				<input id="actionEndTime" name="actionEndTime" value='${extUserActions.actionEndTime}' type="text" maxlength="32" class="form-control input-sm" placeholder="请输入操作结束时间"  ignore="ignore" />
+				<input id="actionEndTime" name="actionEndTime" value='${extUserActions.actionEndTime}' type="text" maxlength="32" class="form-control input-sm" placeholder="请输入结束时间"  ignore="ignore" />
 			</div>
 		</div>
 	</div>

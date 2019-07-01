@@ -7,14 +7,14 @@
    <t:dgCol title="主键"  field="id"  hidden="true"  queryMode="single"  width="120"></t:dgCol>
    <t:dgCol title="创建日期"  field="createOn"  formatter="yyyy-MM-dd"  hidden="true"  queryMode="single"  width="120"></t:dgCol>
    <t:dgCol title="用户编号"  field="userId"  hidden="true"  queryMode="single"  width="120"></t:dgCol>
+   <t:dgCol title="业务场景"  field="actionScene"  queryMode="single"  width="120"></t:dgCol>
+   <t:dgCol title="用户操作"  field="actionType"  queryMode="single"  width="120"></t:dgCol>
+   <t:dgCol title="操作对象"  field="actionTarget"  queryMode="single"  width="120"></t:dgCol>
+   <t:dgCol title="主机名"  field="hostName"  queryMode="single"  width="120"></t:dgCol>
    <t:dgCol title="IP地址"  field="ip"  queryMode="single"  width="120"></t:dgCol>
    <t:dgCol title="MAC地址"  field="mac"  queryMode="single"  width="120"></t:dgCol>
-   <t:dgCol title="用户操作如点击"  field="actionType"  queryMode="single"  width="120"></t:dgCol>
-   <t:dgCol title="操作对象如菜单"  field="actionTarget"  queryMode="single"  width="120"></t:dgCol>
-   <t:dgCol title="业务场景"  field="actionScene"  queryMode="single"  width="120"></t:dgCol>
-   <t:dgCol title="操作发起主机名"  field="hostName"  queryMode="single"  width="120"></t:dgCol>
-   <t:dgCol title="操作开始时间"  field="actionBeginTime"  queryMode="single"  width="120"></t:dgCol>
-   <t:dgCol title="操作结束时间"  field="actionEndTime"  queryMode="single"  width="120"></t:dgCol>
+   <t:dgCol title="开始时间"  field="actionBeginTime"  queryMode="single"  width="120"></t:dgCol>
+   <t:dgCol title="结束时间"  field="actionEndTime"  queryMode="single"  width="120"></t:dgCol>
    <t:dgCol title="操作" field="opt" width="100"></t:dgCol>
    <t:dgDelOpt title="删除" url="extUserActionsController.do?doDel&id={id}" urlclass="ace_button"  urlfont="fa-trash-o"/>
    <t:dgToolBar title="录入" icon="icon-add" url="extUserActionsController.do?goAdd" funname="add"  width="768"></t:dgToolBar>
