@@ -4,6 +4,7 @@ import com.jeecg.apm.service.ExtUserActionsServiceI;
 import com.jeecg.util.IpAddressUtil;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -377,6 +378,7 @@ public class ExtUserActionsController extends BaseController {
 		HttpServletRequest request = servletRequestAttributes.getRequest();
 		String ip = IpAddressUtil.getIpAddress(request);
 		extUserActions.setIp(ip);
+		extUserActions.setCreateOn(new Date());
 
 		//保存
 		try{
