@@ -1,6 +1,7 @@
 package com.jeecg.apm.controller;
 import com.jeecg.apm.entity.ExtUserActionsEntity;
 import com.jeecg.apm.service.ExtUserActionsServiceI;
+import com.jeecg.util.IpAddressUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,6 +46,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -368,6 +371,12 @@ public class ExtUserActionsController extends BaseController {
 		if (!failures.isEmpty()) {
 			return Result.error(JSONArray.toJSONString(BeanValidators.extractPropertyAndMessage(failures)));
 		}
+		
+		//qchzhu:获取IP地址
+		ServletRequestAttributes servletRequestAttributes = (ServletRequestAttributes)RequestContextHolder.getRequestAttributes();
+		HttpServletRequest request = servletRequestAttributes.getRequest();
+		String ip = IpAddressUtil.getIpAddress(request);
+		extUserActions.setIp(ip);
 
 		//保存
 		try{
